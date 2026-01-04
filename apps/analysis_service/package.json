@@ -1,0 +1,14 @@
+{
+  "name": "analysis_service",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "install": "uv sync",
+    "dev": "uv run fastapi dev src/main.py",
+    "start": "uv run fastapi run src/main.py",
+    "lint": "uv run ruff check",
+    "format": "uv run ruff format",
+    "check-types": "uv run pyright",
+    "check-sec": "uv run bandit -r src"
+  }
+}
