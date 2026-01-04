@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+set -e
+
+# Run OpenAPI export if analysis_service changed
+scripts/export_openapi_on_changes.sh
